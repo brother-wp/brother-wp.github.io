@@ -1,6 +1,12 @@
 ---
-baseURL: "http://example.org/"
+baseURL: "https://brother-wp.io/"
 languageCode: "en-us"
-title: "My New Hugo Site"
+title: "Brother WP"
 theme: "binario"
 publishDir: "../"
+staticDir: "static"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
